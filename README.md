@@ -12,27 +12,28 @@ Actually in a common database, we stock you like this data structure:
 
 - Your firstname is 'John', your name is 'Doe' and you have 1 dog 'called doggy' and 2 cats 'called Jessie and James', Jessie is White, and James is Black, so you will stock all the data about that like that :
 
-Table 'humans'
+**Table 'humans'**
 
-  ID  NAME  FIRSTNAME
-  
-  1   Doe   John
+| ID | NAME | FIRSTNAME |
+|----|------|-----------|
+| 1  | Doe  | John      |
+|    |      |           |
 
-Table 'pets'
+**Table 'pets'**
 
-  ID  NAME COLOR
-  
-  1   Jessie  White
-  
-  2   James   Black
+| ID | NAME   | COLOR |
+|----|--------|-------|
+| 1  | Jessie | White |
+| 2  | James  | Black |
+|    |        |       |
 
-Table 'humans-pets-relations'
+**Table 'humans-pets-relations'**
 
-  ID_HUMAN  ID_PET
-  
-  1         1
-  
-  1         2
+| ID_HUMAN | ID_PET |
+|----------|--------|
+| 1        | 1      |
+| 1        | 2      |
+|          |        |
   
 Let's try my approach, you could only stock something like:
  
@@ -46,23 +47,27 @@ All data could be stored like that via common DataTranscripters (json compatible
 
 The principal objective is to be agree to a common langage to stock the data correctly with DataTranscripters only in English like this one for humans (pull requests could be interesting if a community could support the translations):
 
+```
 {
   'humans': {
     'ID': 'ID',
     'name': 'N',
-    'firstname: 'F',
-    'age: 'A',
+    'firstname': 'F',
+    'age': 'A',
     'relations': 'R'
   }
 }
+```
 
 And the result could be:
 
+```
 ID[1]H[F=John,N=Doe,A=30,R=2]P[1D['Doggy'#FFF]3C['Tom'#000, 'Jerry'#FFF, 'Mickey'#00FF00]]
 
 ID[2]H[F=Jane,N=Doe,A=42,R=1]
 
 ID[3]H[F=Jack,N=Dupont,A=18,R=1,2]
+```
 
 The result in this case:
 
