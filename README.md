@@ -41,7 +41,11 @@ Let's try my approach, you could only stock something like:
 In only one line, you could stock your data and your relations:
 
 ```
-1 Human named [John-Doe] got 1 Dog named [Doggy] and 2 Cats [Jessie] who is White [#FFF is white in Hexa] and  [James] who is Black [#000 is black in Hexa].
+1 Human named [John-Doe] got 1 Dog named [Doggy]
+
+AND
+
+2 Cats [Jessie] who is White [#FFF is white in Hexa] and [James] who is Black [#000 is black in Hexa].
 ```
 
 All data could be stored like that via **common DataTranscripters** (json compatible why not) and a DataTranscripter could represent the structure of a real entity (here the pets) but you could apply this structure to all entities in the world (cars, homes objects, computer hardwares etc...)
