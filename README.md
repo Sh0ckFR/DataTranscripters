@@ -64,4 +64,6 @@ The result in this case:
 John is a relation of Jane and Jane is a relation of John, John have 4 Pets, 1 dog (named Doggy and Doggy is Black), 3 cats (Tom -> Black, Jerry -> White and Mickey -> Red).
 Jack got 2 relations, John and Jane and he's 18 years old and his name is Dupont.
 
-The DataTranscripters could be only one letter and multiple letters if necessary (you want do translate a guinea pig, the letters could be 'GP' for Guinea Pig, it doesn't matter, the most important thing is to preserve a common and (international) langage to stock the data.
+The DataTranscripters could be only one letter or multiple letters if necessary (you want do translate a guinea pig, the letters could be 'GP' for Guinea Pig, it doesn't matter, the most important thing is to preserve a common and (international) langage to stock the data.
+
+I hope you like this theory, if you are interested, just share this github and talk about that around you.
