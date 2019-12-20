@@ -74,6 +74,12 @@ ID[2]H[F=Jane,N=Doe,A=42,R=1]
 ID[3]H[F=Jack,N=Dupont,A=18,R=1,2]
 ```
 
+Or more compressed:
+
+```
+1H.John,Doe.A30.R2/P.1D.Doggy#W.3C.Tom#B,Jerry#FFF,Mickey#R
+```
+
 The result in this case:
 
 ```
