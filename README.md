@@ -15,6 +15,7 @@ Actually in a common database, we stock you like this data structure:
 Table 'humans'
 
   ID  NAME  FIRSTNAME
+  
   1   Doe   John
 
 Table 'pets'
@@ -28,7 +29,9 @@ Table 'pets'
 Table 'humans-pets-relations'
 
   ID_HUMAN  ID_PET
+  
   1         1
+  
   1         2
   
 Let's try my approach, you could only stock something like:
