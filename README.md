@@ -53,7 +53,7 @@ The principal objective is to be agree to a common langage to stock the data cor
 
 And the result could be:
 
-ID[1]H[F=John,N=Doe,A=30,R=2]
+ID[1]H[F=John,N=Doe,A=30,R=2]P[1D['Doggy'#FFF]3C['Tom'#000, 'Jerry'#FFF, 'Mickey'#00FF00]]
 
 ID[2]H[F=Jane,N=Doe,A=42,R=1]
 
@@ -61,7 +61,7 @@ ID[3]H[F=Jack,N=Dupont,A=18,R=1,2]
 
 The result in this case:
 
-John is a relation of Jane and Jane is a relation of John.
+John is a relation of Jane and Jane is a relation of John, John have 4 Pets, 1 dog (named Doggy and Doggy is Black), 3 cats (Tom -> Black, Jerry -> White and Mickey -> Red).
 Jack got 2 relations, John and Jane and he's 18 years old and his name is Dupont.
 
 The DataTranscripters could be only one letter and multiple letters if necessary (you want do translate a guinea pig, the letters could be 'GP' for Guinea Pig, it doesn't matter, the most important thing is to preserve a common and (international) langage to stock the data.
