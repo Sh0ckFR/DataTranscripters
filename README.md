@@ -20,7 +20,9 @@ Table 'humans'
 Table 'pets'
 
   ID  NAME COLOR
+  
   1   Jessie  White
+  
   2   James   Black
 
 Table 'humans-pets-relations'
