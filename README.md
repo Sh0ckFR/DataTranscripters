@@ -77,7 +77,11 @@ ID[3]H[F=Jack,N=Dupont,A=18,R=1,2]
 The result in this case:
 
 ```
-John is a relation of Jane and Jane is a relation of John, John have 4 Pets, 1 dog (named Doggy and Doggy is White), 3 cats (Tom -> Black, Jerry -> White and Mickey -> Red).
+John is a relation of Jane and Jane is a relation of John, John have 4 Pets:
+
+- 1 dog (named Doggy and Doggy is White)
+- 3 cats (Tom -> Black, Jerry -> White and Mickey -> Red).
+
 Jack got 2 relations, John and Jane and he's 18 years old and his name is Dupont.
 ```
 
