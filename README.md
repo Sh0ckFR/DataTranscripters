@@ -54,7 +54,9 @@ The principal objective is to be agree to a common langage to stock the data cor
 And the result could be:
 
 ID[1]H[F=John,N=Doe,A=30,R=2]
+
 ID[2]H[F=Jane,N=Doe,A=42,R=1]
+
 ID[3]H[F=Jack,N=Dupont,A=18,R=1,2]
 
 The result in this case:
