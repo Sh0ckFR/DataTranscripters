@@ -2,7 +2,7 @@
 
 This repository will be used to describe a new method to decrease the volume of big data volumes.
 
-I saw some people on Twitter talking about the Artificial Intelligence in 2019, sadly most of the time, people don't know what they're stocking and they stock the data directly (they are trusting the computing power and the stockage to do create a pseudo Artificial Intelligence).
+I saw some people on Twitter talking about the Artificial Intelligence in 2019, sadly most of the time, people don't know what they're stocking and they stock the data directly (they are trusting the computing power and the stockage to create a pseudo Artificial Intelligence).
 
 There's a new approach, stock a limited data if the data concern a link between the different entities.
 
