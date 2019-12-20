@@ -78,6 +78,8 @@ Or more compressed:
 
 ```
 1H.John,Doe.A30.R2/P.1D.Doggy#W.3C.Tom#B,Jerry#FFF,Mickey#R
+2H.Jane,Doe,A42.R1
+3H.Jack,Dupont,A18,R1,2
 ```
 
 The result in this case:
