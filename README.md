@@ -1,8 +1,3 @@
-# Licence
-
-(c) 2020 Sh0ckFR
-This repository is licensed under MIT license (see LICENSE file for details)
-
 # DataTranscripters
 
 This repository will be used to describe a new method to decrease the volume of big data volumes.
@@ -103,3 +98,7 @@ The DataTranscripters could be only one letter or multiple letters if necessary 
 DataTranscripters could be used to translate the data between 2 databases or just to got an human version of the stored data.
 
 I hope you liked this theory, if you are interested, just share this github and talk about that around you.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
