@@ -1,3 +1,8 @@
+# Licence
+
+(c) 2020 Sh0ckFR
+This repository is licensed under MIT license (see LICENSE file for details)
+
 # DataTranscripters
 
 This repository will be used to describe a new method to decrease the volume of big data volumes.
